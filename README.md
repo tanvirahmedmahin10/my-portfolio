@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tanvir Ahmed Mahin — Portfolio
 
-## Getting Started
+Welcome to my personal portfolio! I'm a Computer Science and Engineering student passionate about web development and building modern, responsive, and user-friendly web applications.
 
-First, run the development server:
+## 🚀 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I'm currently learning and improving my skills in frontend and full-stack web development. I enjoy turning ideas into functional web applications and continuously exploring new technologies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js** — React framework for building web applications
+- **React** — Building interactive user interfaces
+- **TypeScript** — Type-safe JavaScript development
+- **Tailwind CSS** — Responsive and modern styling
+- **Lucide React** — Icons for the user interface
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- Responsive design for desktop, tablet, and mobile devices
+- Introduction and about section
+- Skills section showcasing technical expertise
+- Projects section highlighting personal projects
+- Contact section for getting in touch
+- Sticky navigation bar with active section highlighting
+- Smooth navigation between portfolio sections
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[View My Portfolio](https://my-portfolio-three-tau-9m11t2s5o7.vercel.app/#projects)
 
-## Deploy on Vercel
+## 📬 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **GitHub:** [tanvirahmedmahin10](https://github.com/tanvirahmedmahin10)
+- **LinkedIn:** [Tanvir Ahmed Mahin](https://www.linkedin.com/in/tanvir-ahmed-mahin-720255289/)
+- **Email:** tanvirahmedmahinsarker@gmail.com
+- **Phone:** 01996091143
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+⭐ Thanks for visiting my portfolio! Feel free to explore my projects and connect with me.
