@@ -27,7 +27,7 @@ I'm currently learning and improving my skills in frontend and full-stack web de
 
 ## 🌐 Live Demo
 
-[View My Portfolio](https://my-portfolio-three-tau-9m11t2s5o7.vercel.app/#projects)
+[View My Portfolio](https://my-portfolio-three-tau-9m11t2s5o7.vercel.app)
 
 ## 📬 Contact
 
