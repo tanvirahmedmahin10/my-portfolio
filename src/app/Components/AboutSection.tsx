@@ -43,10 +43,6 @@ export default function About() {
             about computers and new software.
           </p>
         </div>
-
-        <p className="mt-10 inline-block rounded-md border border-orange-500/30 bg-orange-500/10 px-4 py-2 text-sm font-medium text-orange-400">
-          Currently learning → Full-Stack Web Development 🚀
-        </p>
       </div>
     </section>
   );
