@@ -35,9 +35,9 @@ const projects = [
       "API Integration",
       "Better Auth"
     ],
-    liveLink: "https://assignment-7-lovat-two.vercel.app/",
+    liveLink: "https://bazardor-uwv1.vercel.app",
     githubLink:
-      "https://github.com/tanvirahmedmahin10/assignment-7",
+      "https://github.com/tanvirahmedmahin10/BazarDor",
   },
 ];
 
