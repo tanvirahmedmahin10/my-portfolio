@@ -11,7 +11,7 @@ export default function About() {
 
         <div className="mt-8 space-y-5 text-base leading-8 text-slate-400">
           <p>
-            Hi, I’m <span className="font-semibold text-white">Tanvir Ahmed Mahin</span>, a
+            Hi, I’m <span className="font-semibold">Tanvir Ahmed Mahin</span>, a
             Computer Science and Engineering graduate from Bangladesh with a growing
             passion for web development.
           </p>

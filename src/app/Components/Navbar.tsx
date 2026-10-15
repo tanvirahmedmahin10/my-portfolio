@@ -13,7 +13,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="bg-[#171B21] sticky top-0 z-50 max-lg:collapse lg:mb-10 shadow-sm w-full rounded-md overflow-visible">
+    <div className="bg-[#171B21] w-full sticky top-0 z-50 max-lg:collapse lg:mb-10 shadow-sm rounded-md overflow-visible">
       <input id="navbar-1-toggle" className="peer hidden" type="checkbox" />
       <label htmlFor="navbar-1-toggle" className="fixed inset-0 hidden max-lg:peer-checked:block z-20"></label>
 
