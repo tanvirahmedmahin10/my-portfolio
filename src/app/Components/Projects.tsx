@@ -17,11 +17,29 @@ const projects = [
       "TypeScript",
       "Tailwind CSS",
       "React",
+      "JavaScript"
     ],
-    liveLink: "https://fitlog-mahin.vercel.app/",
+    liveLink: "https://fitlog-mahin.vercel.app",
     githubLink:
       "https://github.com/tanvirahmedmahin10/FitLog",
   },
+  
+{
+  title: "My Portfolio",
+  category: "Personal Portfolio Website",
+  description:
+    "A personal portfolio website showcasing my skills, projects, and experience as a web developer, with links to my work and contact information.",
+  image: "/asset/Portfolio.png",
+  technologies: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "React",
+    "JavaScript"
+  ],
+  liveLink: "https://my-portfolio-three-tau-9m11t2s5o7.vercel.app",
+  githubLink: "https://github.com/tanvirahmedmahin10/my-portfolio",
+},
   {
     title: "BazarDor",
     category: "Market Price App",
@@ -33,12 +51,30 @@ const projects = [
       "TypeScript",
       "Tailwind CSS",
       "API Integration",
-      "Better Auth"
+      "Better Auth",
+      "JavaScript"
     ],
     liveLink: "https://bazardor-uwv1.vercel.app",
     githubLink:
-      "https://github.com/tanvirahmedmahin10/BazarDor",
+      "https://github.com/tanvirahmedmahin10/full-project-with-auth",
   },
+  {
+  title: "Bangla News",
+  category: "News Web App",
+  description:
+    "A news web application that allows users to browse the latest news and explore articles across different categories through a clean and responsive interface.",
+  image: "/asset/BanglaNews.png",
+  technologies: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "API Integration",
+      "Better Auth",
+      "JavaScript"
+  ],
+  liveLink: "https://banlanews.vercel.app",
+  githubLink: "https://github.com/tanvirahmedmahin10/full-project-with-auth",
+},
 ];
 
 const Projects = () => {
