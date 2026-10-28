@@ -17,7 +17,7 @@ const Navbar = () => {
       <input id="navbar-1-toggle" className="peer hidden" type="checkbox" />
       <label htmlFor="navbar-1-toggle" className="fixed inset-0 hidden max-lg:peer-checked:block z-20"></label>
 
-      <div className="collapse-title navbar container mx-auto flex items-center justify-between p-2">
+      <div className="collapse-title navbar container relative mx-auto flex items-center justify-between p-2">
         <div className="navbar-start flex items-center gap-2 w-auto">
           <label htmlFor="navbar-1-toggle" className="btn btn-ghost lg:hidden">
             <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -27,10 +27,22 @@ const Navbar = () => {
           <Link href='/'><h2 className="font-semibold text-xl text-white whitespace-nowrap">Tanvir Ahmed Mahin</h2></Link>
         </div>
 
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex lg:absolute lg:left-1/2 lg:top-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2">
           <ul className="menu menu-horizontal text-white px-1 gap-2">
             {link}
           </ul>
+        </div>
+
+        <div className="navbar-end hidden lg:flex">
+          <a
+            href="/Tanvir_Ahmed_Mahin_CV.pdf"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-[#ff8a00] text-black font-semibold rounded-lg hover:bg-[#ff9f24] transition duration-200 shadow-lg"
+          >
+            Download Resume
+          </a>
         </div>
       </div>
       <div className="collapse-content lg:hidden z-30">

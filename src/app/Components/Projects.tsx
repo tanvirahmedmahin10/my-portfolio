@@ -29,7 +29,7 @@ const projects = [
   category: "Personal Portfolio Website",
   description:
     "A personal portfolio website showcasing my skills, projects, and experience as a web developer, with links to my work and contact information.",
-  image: "/asset/Portfolio.png",
+  image: "/asset/Profile.png",
   technologies: [
     "Next.js",
     "TypeScript",
