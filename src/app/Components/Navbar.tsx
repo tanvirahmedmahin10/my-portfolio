@@ -159,7 +159,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-50 w-full rounded-md bg-[#171B21] shadow-sm lg:mb-10">
       <nav className="container relative z-50 mx-auto flex items-center justify-between gap-2 p-2 sm:px-4">
-        <div className="flex min-w-0 items-center gap-1 sm:gap-2">
+        <div className="flex min-w-0 my-2 items-center gap-1 sm:gap-2">
           <button
             ref={toggleRef}
             type="button"
