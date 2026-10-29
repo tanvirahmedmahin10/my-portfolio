@@ -81,14 +81,14 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-[#090b0e] px-7 py-5 text-white"
+      className="bg-[#090b0e] px-4 py-16 text-white sm:px-7 sm:py-20"
     >
       <div className="mx-auto max-w-6xl">
-        <p className="mb-2 text-sm font-bold uppercase tracking-widest text-orange-500">
+        <p className="mb-2 text-xs font-bold uppercase tracking-widest text-orange-500 sm:text-sm">
           My Projects
         </p>
 
-        <h2 className="mb-3 text-3xl font-bold md:text-4xl">
+        <h2 className="mb-3 text-2xl font-bold sm:text-3xl md:text-4xl">
           Things I&apos;ve Built
         </h2>
 
@@ -97,7 +97,7 @@ const Projects = () => {
           into functional, responsive web experiences.
         </p>
 
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2">
           {projects.map((project) => (
             <div
               key={project.title}
@@ -113,18 +113,18 @@ const Projects = () => {
                 />
               </div>
 
-              <div className="p-5 sm:p-6">
-                <div className="mb-3 flex items-center justify-between gap-3">
-                  <h3 className="text-xl font-bold">
+              <div className="p-4 sm:p-6">
+                <div className="mb-3 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
+                  <h3 className="text-lg font-bold sm:text-xl">
                     {project.title}
                   </h3>
 
-                  <span className="rounded-md bg-orange-500/10 px-3 py-1 text-xs text-orange-400">
+                  <span className="rounded-md bg-orange-500/10 px-2.5 py-1 text-xs text-orange-400">
                     {project.category}
                   </span>
                 </div>
 
-                <p className="mb-5 text-sm leading-7 text-gray-400">
+                <p className="mb-5 break-words text-sm leading-7 text-gray-400">
                   {project.description}
                 </p>
 
@@ -158,7 +158,7 @@ const Projects = () => {
 
               href={project.githubLink}
 
-              className="px-6 py-3 bg-[#161821] border border-slate-700 text-white font-medium rounded-lg hover:bg-slate-800/80 transition duration-200 text-sm md:text-base">
+              className="px-4 py-2.5 bg-[#161821] border border-slate-700 text-white font-medium rounded-lg hover:bg-slate-800/80 transition duration-200 text-sm sm:px-6 sm:py-3 sm:text-base">
 
               <div className="flex items-center gap-2">
                 <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-orange-500/10 text-orange-500">

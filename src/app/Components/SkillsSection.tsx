@@ -61,14 +61,14 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-[#090b0e] px-7 py-20 text-white"
+      className="bg-[#090b0e] px-4 py-16 text-white sm:px-7 sm:py-20"
     >
       <div className="mx-auto max-w-6xl">
-        <p className="mb-2 text-sm font-bold uppercase tracking-widest text-orange-500">
+        <p className="mb-2 text-xs font-bold uppercase tracking-widest text-orange-500 sm:text-sm">
           My Skills
         </p>
 
-        <h2 className="mb-3 text-3xl font-bold md:text-4xl">
+        <h2 className="mb-3 text-2xl font-bold sm:text-3xl md:text-4xl">
           Technologies I Work With
         </h2>
 
@@ -77,7 +77,7 @@ const Skills = () => {
           modern web applications and continue growing as a developer.
         </p>
 
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4">
           {skills.map((skill) => {
             const Icon = skill.icon;
 

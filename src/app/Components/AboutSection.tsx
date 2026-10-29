@@ -1,15 +1,15 @@
 export default function About() {
   return (
-    <section id="about" className="px-6 py-10">
+    <section id="about" className="px-4 py-10 sm:px-6 sm:py-16">
       <div className="mx-auto max-w-6xl">
         <p className="text-xs font-bold uppercase tracking-widest text-orange-500">
           About me
         </p>
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+        <h2 className="mt-3 text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl">
           Building things to learn them
         </h2>
 
-        <div className="mt-8 space-y-5 text-base leading-8 text-slate-400">
+        <div className="mt-8 space-y-5 text-sm leading-7 text-slate-400 sm:text-base sm:leading-8">
           <p>
             Hi, I’m <span className="font-semibold">Tanvir Ahmed Mahin</span>, a
             Computer Science and Engineering graduate from Bangladesh with a growing

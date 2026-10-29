@@ -6,14 +6,14 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-[#090b0e] px-7 py-20 text-white"
+      className="bg-[#090b0e] px-4 py-16 text-white sm:px-7 sm:py-20"
     >
       <div className="mx-auto max-w-6xl">
-        <p className="mb-2 text-sm font-bold uppercase tracking-widest text-orange-500">
+        <p className="mb-2 text-xs font-bold uppercase tracking-widest text-orange-500 sm:text-sm">
           Get In Touch
         </p>
 
-        <h2 className="mb-3 text-3xl font-bold md:text-4xl">
+        <h2 className="mb-3 text-2xl font-bold sm:text-3xl md:text-4xl">
           Let&apos;s Connect
         </h2>
 
