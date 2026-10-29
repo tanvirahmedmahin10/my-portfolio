@@ -217,13 +217,10 @@ const Navbar = () => {
 
         <div className="hidden shrink-0 lg:block">
           <a
-            href="/Tanvir_Ahmed_Mahin_CV.pdf"
-            download
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#home"
             className="whitespace-nowrap rounded-lg bg-[#ff8a00] px-4 py-2.5 text-sm font-semibold text-black shadow-lg transition duration-200 hover:bg-[#ff9f24] xl:px-6 xl:py-3 xl:text-base"
           >
-            Download Resume
+            Resume
           </a>
         </div>
       </nav>
@@ -261,14 +258,11 @@ const Navbar = () => {
 
             <li className="mt-4">
               <a
-                href="/Tanvir_Ahmed_Mahin_CV.pdf"
-                download
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#home"
                 onClick={closeMenu}
                 className="block rounded-xl bg-[#ff8a00] px-5 py-4 text-center text-lg font-semibold text-black transition-colors duration-200 hover:bg-[#ff9f24]"
               >
-                Download Resume
+                Resume
               </a>
             </li>
           </ul>
